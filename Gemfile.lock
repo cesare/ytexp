@@ -1,0 +1,25 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    faraday (2.14.1)
+      faraday-net_http (>= 2.0, < 3.5)
+      json
+      logger
+    faraday-net_http (3.4.2)
+      net-http (~> 0.5)
+    json (2.19.3)
+    logger (1.7.0)
+    net-http (0.9.1)
+      uri (>= 0.11.1)
+    uri (1.1.1)
+
+PLATFORMS
+  arm64-darwin-25
+  ruby
+
+DEPENDENCIES
+  faraday
+  json
+
+BUNDLED WITH
+   2.6.9
